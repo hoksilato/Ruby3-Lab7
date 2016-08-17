@@ -34,6 +34,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
+  gem 'dotenv-rails', groups: [:development, :test], require: 'dotenv/rails-now'
 end
 group :production do
   gem 'rails_12factor'

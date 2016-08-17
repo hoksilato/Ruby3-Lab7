@@ -87,3 +87,4 @@ pickle-email-*.html
 public/uploads
 test.txt
 coder-hat.jpg
+.env
